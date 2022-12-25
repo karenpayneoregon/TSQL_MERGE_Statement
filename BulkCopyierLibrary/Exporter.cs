@@ -4,16 +4,14 @@ using System.Data.SqlClient;
 
 namespace BulkCopyierLibrary
 {
-
     public class Exporter 
     {
 
-        private static string _connectionString =
-            "Data Source=.\\sqlexpress;Initial Catalog=BulkCopyDatabaseCodeSample;Integrated Security=True";
-
         public static (bool success, Exception exception) UpdateData(DataTable pDataTable)
         {
-            using (var cn = new SqlConnection() { ConnectionString = _connectionString })
+            string connectionString =
+                "Data Source=.\\sqlexpress;Initial Catalog=BulkCopyDatabaseCodeSample;Integrated Security=True";
+            using (var cn = new SqlConnection() { ConnectionString = connectionString })
             {
                 using (var cmd = new SqlCommand("", cn))
                 {
