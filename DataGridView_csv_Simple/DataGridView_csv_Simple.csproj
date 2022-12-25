@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataGridView_csv_Simple</RootNamespace>
     <AssemblyName>DataGridView_csv_Simple</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -56,19 +56,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmResults.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmResults.Designer.cs">
-      <DependentUpon>frmResults.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmResults.resx">
-      <DependentUpon>frmResults.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,17 +88,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj">
-      <Project>{196032e1-cf49-4c69-80d9-85b3f512af97}</Project>
-      <Name>BaseLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BulkCopyierLibrary\BulkCopyierLibrary.csproj">
       <Project>{1cdbdd35-8833-4481-8c78-9b8be6520e68}</Project>
       <Name>BulkCopyierLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GenerateDatabase.sql" />
+    <Content Include="GenerateDatabaseEmpty.sql" />
+    <Content Include="GenerateDatabasePopulated.sql" />
+    <Content Include="Script1.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

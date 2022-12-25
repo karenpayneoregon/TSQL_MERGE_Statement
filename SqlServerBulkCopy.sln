@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkCopyierLibrary", "BulkCopyierLibrary\BulkCopyierLibrary.csproj", "{1CDBDD35-8833-4481-8C78-9B8BE6520E68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView_csv_Simple", "DataGridView_csv_Simple\DataGridView_csv_Simple.csproj", "{6D104F0D-06AD-4099-A51C-AD426CAC6C1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5E402D69-1AEA-4606-A9C1-2766ADD0689E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseLibrary", "BaseLibrary\BaseLibrary.csproj", "{196032E1-CF49-4C69-80D9-85B3F512AF97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1C78AEF-3B69-4055-BE09-F705067FCE9A}"
 	ProjectSection(SolutionItems) = preProject
@@ -30,17 +28,12 @@ Global
 		{6D104F0D-06AD-4099-A51C-AD426CAC6C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D104F0D-06AD-4099-A51C-AD426CAC6C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D104F0D-06AD-4099-A51C-AD426CAC6C1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{196032E1-CF49-4C69-80D9-85B3F512AF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{196032E1-CF49-4C69-80D9-85B3F512AF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{196032E1-CF49-4C69-80D9-85B3F512AF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{196032E1-CF49-4C69-80D9-85B3F512AF97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1CDBDD35-8833-4481-8C78-9B8BE6520E68} = {5E402D69-1AEA-4606-A9C1-2766ADD0689E}
-		{196032E1-CF49-4C69-80D9-85B3F512AF97} = {5E402D69-1AEA-4606-A9C1-2766ADD0689E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {742D1238-9F4B-4FF4-9256-2C22F51CB60C}
