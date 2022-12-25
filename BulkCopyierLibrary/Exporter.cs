@@ -6,7 +6,6 @@ namespace BulkCopyierLibrary
 {
     public class Exporter 
     {
-
         public static (bool success, Exception exception) UpdateData(DataTable pDataTable)
         {
             string connectionString =
