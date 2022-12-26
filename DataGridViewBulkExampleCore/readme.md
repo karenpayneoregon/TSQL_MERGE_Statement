@@ -1,0 +1,3 @@
+﻿# About
+
+Slimmed down version from [this article](https://social.technet.microsoft.com/wiki/contents/articles/52491.c-working-with-t-sql-merge-statement.aspx) coded with .NET Core 7. This slimmed down version was done inspired by a forum question where the coder wanted to find a easy method to update a DataTable done in bulk which this code sample does. See project BulkCopierLibraryCore for data operations.
